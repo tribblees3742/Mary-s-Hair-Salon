@@ -1,50 +1,160 @@
-Price of hair
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mary's Hair Salon</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <h1>Mary's Hair Salon</h1>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
-Service Price (USD)
-Shampoo & Blow Dry $40–$80
-Silk Press $80–$150
-Hair Trim $25–$50
-Women’s Haircut $50–$120
-Deep Conditioning Treatment $30–$60
-Hair Relaxer $90–$180
-Hair Coloring (Single Process) $100–$200
-Highlights $150–$350
-Balayage $200–$450
-Cornrows (Straight Back) $60–$120
-Designer Cornrows $100–$250
-Ghana Braids $150–$300
-Stitch Braids $120–$300
-Box Braids $180–$450
-Knotless Braids (Medium) $250–$500
-Knotless Braids (Small) $350–$700
-Bohemian Knotless Braids $350–$700
-Passion Twists $220–$450
-Senegalese Twists $200–$400
-Marley Twists $180–$350
-Faux Locs $250–$500
-Butterfly Locs $300–$600
-Soft Locs $300–$650
-Crochet Braids $120–$250
-Invisible Locs $350–$700
-Starter Locs $150–$300
-Loc Retwist $80–$180
-Wig Installation $100–$250
-Frontal Wig Installation $150–$300
-Closure Wig Installation $120–$250
-Wig Customization $80–$200
-Wig Revamp $100–$250
-Sew-In Weave $180–$350
-Quick Weave $100–$180
-Ponytail Style $80–$180
-Bridal Hairstyle $250–$700
-Makeup (Optional) $100–$250
-Children’s Braids $80–$250
-Hair Extensions (Installation Only) $150–$400
-Hair Take Down $40–$120
-Additional Charges
+    <main>
+        <!-- Hero Section with Photo -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <img src="images/profile.jpg" alt="Mary Williams - Hair Stylist" class="profile-photo">
+                <div class="hero-text">
+                    <h2>Welcome to Mary's Hair Salon</h2>
+                    <p>Professional hair services in Chester, Pennsylvania</p>
+                </div>
+            </div>
+        </section>
 
-* Hair extensions supplied by salon: $50–$300+
-* Extra-long hair: +$50–$150
-* Extra-small braids: +$50–$200
-* Home/Travel service: +$75–$300
-* Beads, cuffs, and accessories: $10–$50
+        <!-- About Section -->
+        <section id="about" class="about">
+            <h2>About Mary</h2>
+            <div class="about-content">
+                <p><strong>Mary Williams</strong></p>
+                <p>Age: 37</p>
+                <p>Education: Degree in Accountancy</p>
+                <p>Location: Chester, Pennsylvania</p>
+                <p>Email: marywillaim012@gmail.com</p>
+            </div>
+        </section>
+
+        <!-- Services & Pricing -->
+        <section id="services" class="services">
+            <h2>Services & Pricing</h2>
+            
+            <div class="pricing-category">
+                <h3>Basic Services</h3>
+                <ul>
+                    <li>Shampoo & Blow Dry: $40–$80</li>
+                    <li>Silk Press: $80–$150</li>
+                    <li>Hair Trim: $25–$50</li>
+                    <li>Women's Haircut: $50–$120</li>
+                    <li>Deep Conditioning Treatment: $30–$60</li>
+                    <li>Hair Relaxer: $90–$180</li>
+                </ul>
+            </div>
+
+            <div class="pricing-category">
+                <h3>Hair Coloring</h3>
+                <ul>
+                    <li>Hair Coloring (Single Process): $100–$200</li>
+                    <li>Highlights: $150–$350</li>
+                    <li>Balayage: $200–$450</li>
+                </ul>
+            </div>
+
+            <div class="pricing-category">
+                <h3>Braids</h3>
+                <ul>
+                    <li>Cornrows (Straight Back): $60–$120</li>
+                    <li>Designer Cornrows: $100–$250</li>
+                    <li>Ghana Braids: $150–$300</li>
+                    <li>Stitch Braids: $120–$300</li>
+                    <li>Box Braids: $180–$450</li>
+                    <li>Knotless Braids (Medium): $250–$500</li>
+                    <li>Knotless Braids (Small): $350–$700</li>
+                    <li>Bohemian Knotless Braids: $350–$700</li>
+                </ul>
+            </div>
+
+            <div class="pricing-category">
+                <h3>Twists & Locs</h3>
+                <ul>
+                    <li>Passion Twists: $220–$450</li>
+                    <li>Senegalese Twists: $200–$400</li>
+                    <li>Marley Twists: $180–$350</li>
+                    <li>Faux Locs: $250–$500</li>
+                    <li>Butterfly Locs: $300–$600</li>
+                    <li>Soft Locs: $300–$650</li>
+                    <li>Starter Locs: $150–$300</li>
+                    <li>Loc Retwist: $80–$180</li>
+                    <li>Invisible Locs: $350–$700</li>
+                </ul>
+            </div>
+
+            <div class="pricing-category">
+                <h3>Wigs & Weaves</h3>
+                <ul>
+                    <li>Wig Installation: $100–$250</li>
+                    <li>Frontal Wig Installation: $150–$300</li>
+                    <li>Closure Wig Installation: $120–$250</li>
+                    <li>Wig Customization: $80–$200</li>
+                    <li>Wig Revamp: $100–$250</li>
+                    <li>Sew-In Weave: $180–$350</li>
+                    <li>Quick Weave: $100–$180</li>
+                </ul>
+            </div>
+
+            <div class="pricing-category">
+                <h3>Special Styles</h3>
+                <ul>
+                    <li>Ponytail Style: $80–$180</li>
+                    <li>Bridal Hairstyle: $250–$700</li>
+                    <li>Makeup (Optional): $100–$250</li>
+                    <li>Children's Braids: $80–$250</li>
+                    <li>Crochet Braids: $120–$250</li>
+                </ul>
+            </div>
+
+            <div class="pricing-category">
+                <h3>Additional Services</h3>
+                <ul>
+                    <li>Hair Extensions (Installation Only): $150–$400</li>
+                    <li>Hair Take Down: $40–$120</li>
+                </ul>
+            </div>
+
+            <div class="pricing-category">
+                <h3>Additional Charges</h3>
+                <ul>
+                    <li>Hair extensions supplied by salon: $50–$300+</li>
+                    <li>Extra-long hair: +$50–$150</li>
+                    <li>Extra-small braids: +$50–$200</li>
+                    <li>Home/Travel service: +$75–$300</li>
+                    <li>Beads, cuffs, and accessories: $10–$50</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <h2>Contact Us</h2>
+            <p>Email: <a href="mailto:marywillaim012@gmail.com">marywillaim012@gmail.com</a></p>
+            <p>Location: Chester, Pennsylvania</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mary's Hair Salon. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
